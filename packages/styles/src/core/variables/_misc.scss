@@ -1,0 +1,13 @@
+﻿/* === Border Radius === */
+$radii: (
+        xl: 14px,
+        lg: 10px,
+        md: 8px,
+        sm: 6px,
+        xs: 6px,
+) !default;
+:root {
+  @each $radius, $px in $radii {
+    --border-radius-#{$radius}: #{$px};
+  }
+}

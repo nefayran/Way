@@ -1,0 +1,31 @@
+{
+  "name": "@way/styles",
+  "description": "Milky way styles system",
+  "keywords": [
+    "css",
+    "grid",
+    "col",
+    "sass",
+    "scss",
+    "mediaqueries",
+    "flexbox"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/styles.min.css",
+  "sass": "src/_index.scss",
+  "scripts": {
+    "build": "sass src/_index.scss dist/styles.css && postcss dist/styles.css > dist/styles.min.css"
+  },
+  "devDependencies": {
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.48.0"
+  },
+  "dependencies": {
+    "cssnano": "^5.0.15",
+    "postcss": "^8.4.5"
+  }
+}

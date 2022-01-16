@@ -1,0 +1,22 @@
+﻿/* === Variables === */
+@import "core/variables/layout";
+@import "core/variables/colors";
+@import "core/variables/fonts";
+@import "core/variables/misc";
+
+/* === Core Base === */
+@import "core/base/general";
+@import "core/base/align";
+@import "core/base/display";
+@import "core/base/justify";
+@import "core/base/coloring";
+
+/* === Grid === */
+@import "core/grid/grid";
+@import "core/grid/flex";
+@import "core/grid/spaces";
+@import "core/grid/containers";
+
+/* === Typography === */
+@import "core/typography/weight";
+@import "core/typography/text";

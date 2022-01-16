@@ -1,0 +1,6 @@
+﻿/* === Background Colors === */
+@each $color, $code in $colors {
+  .#{$color} {
+    background-color: $code;
+  }
+}

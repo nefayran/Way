@@ -1,0 +1,94 @@
+﻿@use "sass:map";
+/* === Text alignment === */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* === Line height === */
+.lh-none {
+  line-height: 1;
+}
+@each $space, $px in $spaces {
+  .lh-#{$space} {
+    line-height: $px;
+  }
+}
+
+/* === List style type === */
+.list-none {
+  list-style-type: none;
+}
+
+/* === Font size === */
+@each $size, $rem in $sizes {
+  .text-#{$size} {
+    font-size: $rem;
+  }
+}
+
+/* === Text overflow === */
+.overflow-clip {
+  text-overflow: clip;
+}
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+/* === Text transform === */
+.capitalize {
+  text-transform: capitalize;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/* === Whitespace === */
+.whitespace-normal {
+  white-space: normal;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.whitespace-pre {
+  white-space: pre;
+}
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+/* === Text Colors === */
+@each $color, $code in $colors {
+  .text-#{$color} {
+    color: $code;
+  }
+}
+
+/* === Text Fonts === */
+*,
+h1,
+h2,
+h3,
+.font-primary {
+  font-family: map.get($fonts, "primary");
+  font-weight: normal;
+}
+
+/* === Text Fonts === */
+p,
+li,
+.font-secondary {
+  font-family: map.get($fonts, "secondary");
+}

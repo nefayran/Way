@@ -1,0 +1,30 @@
+{
+  "name": "@way/components",
+  "version": "1.0.0",
+  "main": "./dist/way-components.umd.js",
+  "module": "./dist/way-components.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/way-components.es.js",
+      "require": "./dist/way-components.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && vue-tsc --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "@way/styles": "^1.0.0",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.1",
+    "typescript": "4.5.4",
+    "@vue/compiler-sfc": "^3.2.26",
+    "vue-tsc": "^0.30.2",
+    "vite": "^2.7.12"
+  }
+}

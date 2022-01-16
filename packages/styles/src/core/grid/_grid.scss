@@ -1,0 +1,49 @@
+﻿/* === Grid auto flow === */
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+/* === Grid columns === */
+@for $i from 1 through 12 {
+  .cols-#{$i} {
+    grid-template-columns: repeat($i, minmax(0, 1fr));
+  }
+}
+/* === Span (column) === */
+@for $i from 1 through 12 {
+  .col-span-#{$i} {
+    grid-column: span $i / span $i;
+  }
+}
+/* === Grid rows === */
+@for $i from 1 through 12 {
+  .rows-#{$i} {
+    grid-template-rows: repeat($i, minmax(0, 1fr));
+  }
+}
+/* === Span (row) === */
+@for $i from 1 through 12 {
+  .row-span-#{$i} {
+    grid-row: span $i / span $i;
+  }
+}
+/* === Gap === */
+@each $space, $px in $spaces {
+  .gap-#{$space} {
+    gap: $px;
+  }
+}
+/* === Gap (column) === */
+@each $space, $px in $spaces {
+  .gap-x-#{$space} {
+    column-gap: $px;
+  }
+}
+/* === Gap (row) === */
+@each $space, $px in $spaces {
+  .gap-y-#{$space} {
+    row-gap: $px;
+  }
+}

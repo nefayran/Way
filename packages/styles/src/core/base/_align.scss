@@ -1,0 +1,57 @@
+﻿/* === Align content === */
+.content-center {
+  align-content: center;
+}
+.content-end {
+  align-content: flex-end;
+}
+.content-start {
+  align-content: flex-start;
+}
+.content-around {
+  align-content: space-around;
+}
+.content-between {
+  align-content: space-between;
+}
+.content-evenly {
+  align-content: space-evenly;
+}
+.content-stretch {
+  align-content: stretch;
+}
+/* === Align items === */
+.items-baseline {
+  align-items: baseline;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-stretch {
+  align-items: stretch;
+}
+/* === Align self === */
+.self-auto {
+  align-self: auto;
+}
+.self-baseline {
+  align-self: baseline;
+}
+.self-center {
+  align-self: center;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-stretch {
+  align-self: stretch;
+}

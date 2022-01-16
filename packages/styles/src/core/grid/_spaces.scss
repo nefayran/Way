@@ -1,0 +1,64 @@
+﻿/* === Margins === */
+@each $space, $px in $spaces {
+  /* All */
+  .ma-#{$space} {
+    margin: $px;
+  }
+  /* Horizontal */
+  .mx-#{$space} {
+    margin: 0 $px 0 $px;
+  }
+  /* Vertical */
+  .my-#{$space} {
+    margin: $px 0 $px 0;
+  }
+  /* Left */
+  .ml-#{$space} {
+    margin-left: $px;
+  }
+  /* Right */
+  .mr-#{$space} {
+    margin-right: $px;
+  }
+  /* Bottom */
+  .mb-#{$space} {
+    margin-bottom: $px;
+  }
+  /* Top */
+  .mt-#{$space} {
+    margin-top: $px;
+  }
+}
+/* === Paddings === */
+@each $space, $px in $spaces {
+  /* All */
+  .pa-#{$space} {
+    padding: $px;
+  }
+  /* Horizontal */
+  .px-#{$space} {
+    padding-left: $px;
+    padding-right: $px;
+  }
+  /* Vertical */
+  .py-#{$space} {
+    padding-top: $px;
+    padding-bottom: $px;
+  }
+  /* Left */
+  .pl-#{$space} {
+    padding-left: $px;
+  }
+  /* Right */
+  .pr-#{$space} {
+    padding-right: $px;
+  }
+  /* Bottom */
+  .pb-#{$space} {
+    padding-bottom: $px;
+  }
+  /* Top */
+  .pt-#{$space} {
+    padding-top: $px;
+  }
+}

@@ -1,0 +1,12 @@
+﻿@use "sass:map";
+/* === Fonts === */
+$fonts: (
+        "primary": "PeaceSans",
+        "secondary": "SfUi",
+) !default;
+
+/* === Font Variables === */
+:root {
+  --font-primary: "#{map.get($fonts, "primary")}";
+  --font-secondary: "#{map.get($fonts, "secondary")}";
+}

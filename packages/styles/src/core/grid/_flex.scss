@@ -1,0 +1,44 @@
+﻿/* === Flex === */
+.flex-auto {
+  flex: auto;
+}
+.flex-none {
+  flex: none;
+}
+/* === Flex direction === */
+.flex-col {
+  flex-direction: column;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+/* === Flex grow === */
+.flex-grow-0 {
+  flex-grow: 0;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+/* === Flex shrink === */
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.flex-shrink {
+  flex-shrink: 1;
+}
+/* === Flex wrap === */
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
