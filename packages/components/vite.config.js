@@ -1,12 +1,11 @@
 // vite.config.ts
-const path = require("path");
-const { defineConfig } = require("vite");
 import vue from "@vitejs/plugin-vue";
 
+const path = require("path");
+const { defineConfig } = require("vite");
+
 module.exports = defineConfig({
-  plugins: [
-    vue(),
-  ],
+  plugins: [vue()],
   define: { "process.env": {} },
   base: "./", // Base address.
   resolve: {
@@ -29,6 +28,10 @@ module.exports = defineConfig({
         // for externalized deps
         globals: {
           vue: "Vue",
+        },
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name === "style.css") return "styles.css";
+          return assetInfo.name;
         },
       },
     },

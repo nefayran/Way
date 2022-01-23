@@ -1,0 +1,37 @@
+﻿/* === Themes === */
+@import "themes/dark";
+@import "themes/light";
+
+$themes: (
+        "dark": $dark,
+        "light": $light,
+);
+@each $theme, $palette in $themes {
+  /* === Root Variables === */
+  :root {
+    @each $color, $colors in $palette {
+      @each $type, $code in $colors {
+        --#{$theme}-#{$color}-#{$type}: #{$code};
+      }
+    }
+  }
+  /* === Theme classes === */
+  .w-app--#{$theme} {
+    /* === Text Colors Classes === */
+    @each $color, $colors in $palette {
+      @each $type, $code in $colors {
+        .text-#{$color}--#{$type} {
+          color: $code;
+        }
+      }
+    }
+    /* === Background Colors Classes === */
+    @each $color, $colors in $palette {
+      @each $type, $code in $colors {
+        .#{$color}--#{$type} {
+          background-color: $code;
+        }
+      }
+    }
+  }
+}

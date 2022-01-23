@@ -1,0 +1,22 @@
+{
+  "name": "@way/fonts",
+  "description": "Milky way styles system",
+  "keywords": [
+    "css",
+    "fonts"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.css",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nefayran/Way.git",
+    "directory": "packages/fonts"
+  }
+}

@@ -1,52 +1,51 @@
 ﻿<template>
-  <button 
-      :class="[classes]" 
-      @click="$emit('click', $event)"
-      @mouseover="hover"
+  <button
+    :class="[classes.button]"
+    @click="$emit('click', $event)"
+    @mouseover="hover"
   >
-    <span class="w-button__text">
-      {{ text }}
+    <span :class="[classes.text]">
+      <slot />
     </span>
   </button>
 </template>
 
 <script lang="ts" setup>
-import {defineProps, computed, ref} from "vue";
-let test = ref();
+import { defineProps, withDefaults, computed, defineEmits } from "vue";
+
 interface Props {
-  text: string;
-  color: string;
+  theme: string;
+  color?: string;
+  fill?: string;
   size?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  text: "Milky way",
-  color: "primary",
+  theme: "light",
+  color: "white--base",
+  fill: "indigo--base",
   size: "lg",
 });
 
+const emit = defineEmits(["click"]);
+
 const classes = computed(() => {
-    return  "w-button " + props.color + " " + "w-button--" + props.size;
-  },
-);
+  return {
+    button: `w-button w-button--${props.size} ${props.fill}`,
+    text: `w-text text-${props.color}`,
+  };
+});
 
 const hover = (event: any) => {
-  console.log("hover")
-}
+  console.log("hover");
+};
 </script>
 
 <style lang="scss">
 /* === Button Sizes === */
-$sizes: (
-    xl, lg, md, sm, xs,
-) !default;
+$sizes: (xl, lg, md, sm, xs) !default;
 .w-button {
-  color: var(--color-secondary);
   border: none;
-
-  &__text {
-    font-family: var(--font-primary);
-  }
 
   @each $size in $sizes {
     &--#{$size} {
@@ -55,14 +54,14 @@ $sizes: (
       padding-left: var(--space-#{$size});
       padding-right: var(--space-#{$size});
       border-radius: var(--border-radius-#{$size});
-      min-width: var(--width-#{$size});;
+      min-width: var(--width-#{$size});
 
-      .w-button__text {
+      .w-text {
         font-size: var(--font-size-#{$size});
       }
     }
   }
-  
+
   &:hover {
     cursor: pointer;
   }

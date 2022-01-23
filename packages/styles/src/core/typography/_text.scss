@@ -69,13 +69,6 @@
   white-space: pre-wrap;
 }
 
-/* === Text Colors === */
-@each $color, $code in $colors {
-  .text-#{$color} {
-    color: $code;
-  }
-}
-
 /* === Text Fonts === */
 *,
 h1,

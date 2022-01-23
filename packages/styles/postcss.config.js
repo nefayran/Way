@@ -1,7 +1,6 @@
 ﻿module.exports = {
-    plugins: [
-        require('cssnano')({
-            preset: 'default',
-        })
-    ]
+    plugins: {
+        cssnano: { preset: "default" },
+        autoprefixer: { browsers: ["last 2 versions", "iOS >= 8"] },
+    },
 };
