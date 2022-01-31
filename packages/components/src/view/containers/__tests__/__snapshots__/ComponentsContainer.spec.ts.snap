@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentsContainer.vue should have an wb-container class 1`] = `
+<div
+  class="wb-container"
+>
+  <div
+    class="wb-components my-md mx-md pa-lg br-lg flex"
+  >
+    <div
+      class="wb-component"
+    >
+      <h3
+        class="font-secondary"
+      >
+        EMPTY
+      </h3>
+    </div>
+  </div>
+</div>
+`;

@@ -15,6 +15,7 @@ $spaces: (
         md: 16px,
         sm: 8px,
         xs: 4px,
+        no: 0px,
 ) !default;
 :root {
   @each $space, $px in $spaces {

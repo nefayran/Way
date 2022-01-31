@@ -1,0 +1,12 @@
+﻿/* === Borders === */
+@each $space, $px in $spaces {
+  .border-#{$space} {
+    border-width: $px;
+  }
+}
+/* === Border Radius === */
+@each $radius, $px in $radii {
+  .br-#{$radius} {
+    border-radius: $px;
+  }
+}

@@ -27,5 +27,15 @@
   "dependencies": {
     "cssnano": "^5.0.15",
     "postcss": "^8.4.5"
-  }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }

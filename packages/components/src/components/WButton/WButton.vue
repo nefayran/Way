@@ -5,16 +5,16 @@
     @mouseover="hover"
   >
     <span :class="[classes.text]">
-      <slot />
+      <slot>@way</slot>
     </span>
   </button>
 </template>
 
 <script lang="ts" setup>
-import { defineProps, withDefaults, computed, defineEmits } from "vue";
+import { withDefaults, computed } from "vue";
 
 interface Props {
-  theme: string;
+  theme?: string;
   color?: string;
   fill?: string;
   size?: string;
@@ -22,8 +22,8 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   theme: "light",
-  color: "white--base",
-  fill: "indigo--base",
+  color: "primary--base",
+  fill: "secondary--base",
   size: "lg",
 });
 
@@ -32,7 +32,7 @@ const emit = defineEmits(["click"]);
 const classes = computed(() => {
   return {
     button: `w-button w-button--${props.size} ${props.fill}`,
-    text: `w-text text-${props.color}`,
+    text: `w-text font-secondary text-${props.color}`,
   };
 });
 

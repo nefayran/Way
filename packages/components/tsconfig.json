@@ -3,6 +3,10 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "dist/types",
-    "types": ["vite"],
+    "types": ["vite", "jest"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
   },
 }

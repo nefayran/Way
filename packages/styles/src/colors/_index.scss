@@ -6,8 +6,9 @@ $themes: (
         "dark": $dark,
         "light": $light,
 );
+
 @each $theme, $palette in $themes {
-  /* === Root Variables === */
+  /* === Root Variables for Force === */
   :root {
     @each $color, $colors in $palette {
       @each $type, $code in $colors {
@@ -17,6 +18,16 @@ $themes: (
   }
   /* === Theme classes === */
   .w-app--#{$theme} {
+    /* === Text Colors === */
+    h1, h2, h3, h4, h5, h6, p, span, li {
+      color: var(--secondary-base);
+    }
+    /* === Variables for Theme === */
+    @each $color, $colors in $palette {
+      @each $type, $code in $colors {
+        --#{$color}-#{$type}: #{$code};
+      }
+    }
     /* === Text Colors Classes === */
     @each $color, $colors in $palette {
       @each $type, $code in $colors {

@@ -10,12 +10,16 @@ module.exports = defineConfig({
   base: "./", // Base address.
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"), // for @
+      "@": path.resolve(__dirname, "src"), // for @
     },
+  },
+  server: {
+    port: 4000, // Default port.
+    open: true,
   },
   build: {
     lib: {
-      entry: path.resolve(__dirname, "./src/index.ts"),
+      entry: path.resolve(__dirname, "./src/components/index.ts"),
       name: "WayComponents",
       fileName: (format) => `way-components.${format}.js`,
     },

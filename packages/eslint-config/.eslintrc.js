@@ -3,6 +3,8 @@
     browser: true,
     es2021: true,
     node: true,
+    jest: true,
+    "vue/setup-compiler-macros": true,
   },
   extends: [
     "plugin:vue/vue3-recommended",
@@ -16,7 +18,7 @@
     parser: "@typescript-eslint/parser",
     sourceType: "module",
   },
-  plugins: ["vue", "@typescript-eslint", "prettier"],
+  plugins: ["vue", "@typescript-eslint", "prettier", "jest", "import"],
   rules: {
     "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
     "import/prefer-default-export": "off",
@@ -45,6 +47,9 @@
     ],
   },
   settings: {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"],
+    },
     "import/resolver": {
       node: {
         extensions: [".js", ".jsx", ".ts", ".tsx"],

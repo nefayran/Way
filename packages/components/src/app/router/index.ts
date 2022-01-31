@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
       title: "Home",
       keepAlive: true,
     },
-    component: () => import("@/view/pages/index.vue"),
+    component: () => import("@/view/pages/HomePage.vue"),
   },
 ];
 

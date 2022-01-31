@@ -1,13 +1,15 @@
 /* === Light Colors === */
 $light: (
-        "indigo": (
-                "base": #001044
+        "primary": (
+                "base": #ffffff,
+                "accent-1": #d8d8d8
         ),
-        "white": (
-                "base": #ffffff
+        "secondary": (
+                "base": #001044,
+                "accent-1": #2E3D84
         ),
-        "yellow": (
-                "base": #ffc617
+        "accent": (
+                "base": #ffc617,
         ),
         "pink": (
                 "base": #c8a2c8,
@@ -16,6 +18,6 @@ $light: (
                 "base": #75bbfd,
         ),
         "green": (
-                "base": #1fa59c
+                "base": #1fa59c,
         )
 );

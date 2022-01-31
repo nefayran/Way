@@ -1,13 +1,15 @@
 /* === Dark Colors === */
 $dark: (
-        "indigo": (
-                "base": #001044
+        "primary": (
+                "base": #21252B, // #001044,
+                "accent-1": #333841// #000a29
         ),
-        "white": (
-                "base": #ffffff
+        "secondary": (
+                "base": #ffffff,
+                "accent-1": #999999
         ),
-        "yellow": (
-                "base": #ffc617
+        "accent": (
+                "base": #ffc617,
         ),
         "pink": (
                 "base": #c8a2c8,

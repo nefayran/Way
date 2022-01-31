@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WApp.vue should have an w-app class 1`] = `
+<div class="w-app w-app--light">
+  <div class="w-wrapper primary--base"></div>
+</div>
+`;

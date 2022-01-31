@@ -6,11 +6,13 @@
   }
   /* Horizontal */
   .mx-#{$space} {
-    margin: 0 $px 0 $px;
+    margin-left: $px;
+    margin-right: $px;
   }
   /* Vertical */
   .my-#{$space} {
-    margin: $px 0 $px 0;
+    margin-top: $px;
+    margin-bottom: $px;
   }
   /* Left */
   .ml-#{$space} {

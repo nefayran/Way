@@ -5,18 +5,23 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn build && yarn lint && lerna run start",
+    "start": "yarn build && yarn lint && lerna run start --stream",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore",
-    "test": "jest",
+    "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean",
     "build": "lerna run build",
-    "pub": "lerna publish"
+    "pub": "lerna publish",
+    "dev": "lerna run dev --stream"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.24",
     "eslint": "^8.7.0",
-    "jest": "^24.8.0",
+    "jest": "^26.6.3",
     "lerna": "~3.14.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "ts-jest": "^26.5.6",
+    "jest-transform-stub": "^2.0.0",
+    "jest-serializer-vue": "^2.0.2"
   }
 }
