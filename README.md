@@ -4,14 +4,14 @@ Milky Way Toolkit - This is a set of packages for developing front-end applicati
 
 ## Packages:
 
-- [Core](core/README.md)
-- [Eslint config](eslint-config/README.md)
-- [Fonts](fonts/README.md)
-- [Space](space/README.md)
-- [Sprites](sprites/README.md)
-- [Storybook](storybook/README.md)
-- [Styles](styles/README.md)
-- [TypeScript config](tsconfig/README.md)
+- [Core](packages/core/README.md)
+- [Eslint config](packages/eslint-config/README.md)
+- [Fonts](packages/fonts/README.md)
+- [Space](packages/space/README.md)
+- [Sprites](packages/sprites/README.md)
+- [Storybook](packages/storybook/README.md)
+- [Styles](packages/styles/README.md)
+- [TypeScript config](packages/tsconfig/README.md)
 
 ## Installation
 
