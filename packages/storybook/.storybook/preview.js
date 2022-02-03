@@ -1,6 +1,6 @@
 import "../src/styles/styles.scss";
 import "@way/fonts"
-import { WApp } from "@way/components"
+import { WApp } from "@way/space"
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

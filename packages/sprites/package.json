@@ -1,0 +1,14 @@
+{
+  "name": "@way/sprites",
+  "version": "1.0.0",
+  "description": "Milky way sprites and icons system",
+  "keywords": [
+    "sprite",
+    "icons",
+    "vue"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "license": "MIT"
+}

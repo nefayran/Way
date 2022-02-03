@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WButton.vue should have an w-button class 1`] = `<button class="w-button w-button--lg secondary--base"><span class="w-text font-secondary text-primary--base">@way</span></button>`;

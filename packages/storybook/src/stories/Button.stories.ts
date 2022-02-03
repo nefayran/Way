@@ -1,4 +1,4 @@
-import { WButton } from "@way/components";
+import { WButton } from "@way/space";
 
 export default {
   title: "WButton",

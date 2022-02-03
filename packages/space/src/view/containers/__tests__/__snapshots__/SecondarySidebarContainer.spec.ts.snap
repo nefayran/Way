@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SecondarySidebarContainer.vue generate components list 1`] = `
+<div
+  class="wb-container"
+>
+  <div
+    class="wb-sidebar ma-md pa-lg br-lg"
+  >
+    <h2
+      class="text-accent--base font-secondary"
+    >
+      Component
+    </h2>
+    <h3
+      class="pt-lg"
+    >
+      Properties:
+    </h3>
+    <!--v-if-->
+  </div>
+</div>
+`;
+
+exports[`SecondarySidebarContainer.vue should have an wb-container class 1`] = `
+<div
+  class="wb-container"
+>
+  <div
+    class="wb-sidebar ma-md pa-lg br-lg"
+  >
+    <h2
+      class="text-accent--base font-secondary"
+    >
+      Component
+    </h2>
+    <h3
+      class="pt-lg"
+    >
+      Properties:
+    </h3>
+    <!--v-if-->
+  </div>
+</div>
+`;

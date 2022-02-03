@@ -1,42 +1,46 @@
-# Frontend Clean Architecture and CQRS
+# Milky Way Toolkit for Vue
 
-## README.md
+Milky Way Toolkit - This is a set of packages for developing front-end applications with Vue. It contains everything you need, as well as a package for developing Vue.js components - Space - (similar to a storybook, but faster).
 
-- en [English](readme/README.en.md)
-- ru [Русский](readme/README.ru.md)
+## Packages:
+
+- [Core](core/README.md)
+- [Eslint config](eslint-config/README.md)
+- [Fonts](fonts/README.md)
+- [Space](space/README.md)
+- [Sprites](sprites/README.md)
+- [Storybook](storybook/README.md)
+- [Styles](styles/README.md)
+- [TypeScript config](tsconfig/README.md)
 
 ## Installation
 
 Install the dependencies and devDependencies and start the server.
 
+### npm
 ```sh
-yarn
-yarn serve
+npm install @way@latest
+npm run start
+```
+### yarn
+```sh
+yarn add @way@latest
+yarn start
 ```
 
 ## Building for source
 
-For production release:
+For build all packages for production release:
 
+### npm
+```sh
+npm run build
+```
+### yarn
 ```sh
 yarn build
 ```
 
-## Docker
-
-Application is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the
-Dockerfile if necessary. When ready, simply use the Dockerfile to
-build the image.
-
-```sh
-docker build -t clean-frontend .
-```
-
-```sh
-docker run -d -p 8000:8080 --restart=always --name=clean-frontend clean-frontend
-```
 ## License
 
 MIT

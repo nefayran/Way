@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "start": "yarn build && yarn lint && lerna run start --stream",
+    "storybook": "lerna run storybook",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore",
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",

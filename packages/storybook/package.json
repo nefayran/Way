@@ -5,7 +5,7 @@
     "storybook-static"
   ],
   "scripts": {
-    "start": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006",
     "lint": "eslint --ext .js,.ts,.vue",
     "build": "build-storybook"
   },
@@ -13,7 +13,7 @@
     "@way/eslint-config": "^1.0.0",
     "@way/styles": "^1.0.0",
     "@way/tsconfig": "^1.0.0",
-    "@way/components": "^1.0.0",
+    "@way/space": "^1.0.0",
     "vue": "^3.2.28"
   },
   "devDependencies": {
