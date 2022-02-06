@@ -1,0 +1,30 @@
+{
+  "name": "@way/api",
+  "version": "0.0.1",
+  "description": "Milky way api client for frontend applications",
+  "keywords": [
+    "api",
+    "typescript"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@way/eslint-config": "^1.0.0",
+    "@way/tsconfig": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4",
+    "uglify-js": "^3.15.0"
+  }
+}

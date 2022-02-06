@@ -1,0 +1,12 @@
+{
+  "extends": "@way/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "declaration": true,
+    "module": "commonjs",
+    "outDir": "./dist", 
+    "types": ["axios","jest", "express"],
+    "baseUrl": ".",
+  },
+  "exclude": ["node_modules", "**/__tests__/*"]
+}

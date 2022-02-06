@@ -1,4 +1,5 @@
-﻿export enum HttpMethod {
+﻿/*  HTTP methods default */
+export enum HttpMethod {
   GET = "GET",
   POST = "POST",
   DELETE = "DELETE",

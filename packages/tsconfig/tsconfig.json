@@ -16,6 +16,7 @@
     "experimentalDecorators": true,
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
   },
+  "exclude": ["node_modules", "**/__tests__/*"]
 }

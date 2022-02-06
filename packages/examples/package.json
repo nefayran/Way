@@ -1,0 +1,30 @@
+{
+  "name": "@way/examples",
+  "version": "0.0.1",
+  "description": "Milky way examples",
+  "keywords": [
+    "api",
+    "typescript"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "license": "MIT",
+  "scripts": {
+    "examples:server": "nodemon ./server.ts",
+    "examples:api": "tsc ./api/axios/index.ts && node ./api/axios/index.js"
+  },
+  "dependencies": {
+    "@way/eslint-config": "^1.0.0",
+    "@way/tsconfig": "^1.0.0",
+    "@way/api": "^0.0.1",
+    "axios": "^0.25.0",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4",
+    "express": "^4.17.2",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15"
+  }
+}
