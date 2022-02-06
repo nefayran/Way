@@ -12,6 +12,7 @@ Milky Way Toolkit - This is a set of packages for developing front-end applicati
 - [Storybook](packages/storybook/README.md)
 - [Styles](packages/styles/README.md)
 - [TypeScript config](packages/tsconfig/README.md)
+- [Examples](packages/examples/README.md)
 
 ## Installation
 
