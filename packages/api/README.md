@@ -2,9 +2,9 @@
 ## API Client
 Clean TS client for API realisation.
 You can use:
--fetch by default (soon...)
--axios
--ajax (soon...)
+ - fetch by default (soon...)
+ - axios
+ - ajax (soon...)
 
 ## Installation
 
