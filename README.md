@@ -4,6 +4,7 @@ Milky Way Toolkit - This is a set of packages for developing front-end applicati
 
 ## Packages:
 
+- [API](packages/api/README.md)
 - [Core](packages/core/README.md)
 - [Eslint config](packages/eslint-config/README.md)
 - [Fonts](packages/fonts/README.md)
