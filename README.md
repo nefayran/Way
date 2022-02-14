@@ -11,7 +11,7 @@ Milky Way Toolkit - This is a set of packages for developing front-end applicati
 - [Sprites](packages/sprites/README.md) - Sprites/Icons library;
 - [Storybook](packages/storybook/README.md) - For present stories;
 - [Styles](packages/styles/README.md) - Styles library;
-- [Services](packages/services/README.md) - Error, Notification, Auth and Utils services;
+- [Services](packages/services/README.md) - Error, Notification, Auth and Utils services (soon...);
 - [Examples](packages/examples/README.md) - Examples for how to use packages;
 - [TypeScript config](packages/tsconfig/README.md)
 - [Eslint config](packages/eslint-config/README.md)
