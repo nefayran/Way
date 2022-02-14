@@ -1,19 +1,24 @@
-# @way/core
-## Clean Frontend Core
-Core files for realisation frontend clean architecture
+# @way/api
+## API Client
+Clean TS client for API realisation.
+You can use:
+-fetch by default (soon...)
+-axios
+-ajax (soon...)
 
 ## Installation
 
 ### npm
 ```sh
-npm install @way/core
+npm install @way/api
 ```
 ### yarn
 ```sh
-yarn add @way/core
+yarn add @way/api
 ```
 ## How to use
 ... soon
+
 ## License
 
 MIT
