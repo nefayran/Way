@@ -1,16 +1,19 @@
-# @way/core
-## Clean Frontend Core
-Core files for realisation frontend clean architecture
+# @way/services
+## Base Services
+
+- Notification
+- Authentication
+- Error handling
 
 ## Installation
 
 ### npm
 ```sh
-npm install @way/core
+npm install @way/services
 ```
 ### yarn
 ```sh
-yarn add @way/core
+yarn add @way/services
 ```
 ## How to use
 ... soon

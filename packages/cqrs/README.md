@@ -1,16 +1,16 @@
-# @way/core
-## Clean Frontend Core
-Core files for realisation frontend clean architecture
+# @way/cqrs
+## CQRS Base
+Based classes for CQRS realisation.
 
 ## Installation
 
 ### npm
 ```sh
-npm install @way/core
+npm install @way/cqrs
 ```
 ### yarn
 ```sh
-yarn add @way/core
+yarn add @way/cqrs
 ```
 ## How to use
 ... soon
