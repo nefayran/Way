@@ -18,6 +18,7 @@
           <span>
             {{ name }}
           </span>
+          <input :value="value" type="text" />
         </li>
       </ul>
     </div>

@@ -25,26 +25,32 @@
   },
   "scripts": {
     "start": "yarn test && vite",
+    "serve": "yarn build && vite preview --port 3000",
     "lint": "eslint --ext .js,.ts,.vue",
     "build": "vite build && postcss dist/styles.css > dist/styles.min.css",
     "types": "vue-tsc --emitDeclarationOnly",
-    "test": "jest --updateSnapshot --coverage"
+    "test": "jest --updateSnapshot --coverage",
+    "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'"
   },
   "dependencies": {
     "@way/eslint-config": "^1.0.0",
+    "@way/fonts": "^1.0.0",
     "@way/styles": "^1.0.0",
     "@way/tsconfig": "^1.0.0",
-    "@way/fonts": "^1.0.0",
+    "start-server-and-test": "^1.14.0",
     "vue": "^3.2.16",
-    "vuex": "^4.0.2",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-unit-jest": "^4.5.15",
+    "@cypress/vite-dev-server": "^1.2.5",
+    "@cypress/vue": "^3.1.0",
     "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/cli-plugin-unit-jest": "^4.5.15",
     "@vue/compiler-sfc": "^3.2.26",
     "@vue/test-utils": "^2.0.0-rc.18",
     "cssnano": "^5.0.15",
+    "cypress": "^9.4.1",
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
     "prettier": "^2.5.1",

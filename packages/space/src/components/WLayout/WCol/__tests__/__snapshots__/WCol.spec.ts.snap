@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WCol.ts should have an w-col class 1`] = `<div class="w-col col col-2"></div>`;

@@ -28,6 +28,10 @@ module.exports = defineConfig({
       // into your library
       external: ["vue"],
       output: {
+        sourceMap: true,
+        format: "iife",
+        name: "way.components",
+        inlineDynamicImports: true,
         // Provide global variables to use in the UMD build
         // for externalized deps
         globals: {

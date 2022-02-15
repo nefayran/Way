@@ -2,9 +2,9 @@
   "extends": "@way/tsconfig/tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "outDir": "dist/types",
+    "outDir": "./dist",
     "types": ["vite", "jest"],
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     },

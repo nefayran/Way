@@ -1,25 +1,26 @@
 ﻿<template>
-  <div class="wb-container cols-12 grid">
-    <div class="col-2">
+  <w-grid cols="12" class="wb-container">
+    <w-col col="2">
       <suspense>
         <secondary-sidebar-container />
       </suspense>
-    </div>
-    <div class="col-8">
+    </w-col>
+    <w-col col="8">
       <components-container />
-    </div>
-    <div class="col-2">
+    </w-col>
+    <w-col col="2">
       <primary-sidebar-container />
-    </div>
-  </div>
+    </w-col>
+  </w-grid>
 </template>
 
 <script setup lang="ts">
-import { shallowRef } from "vue";
 import ComponentsContainer from "./ComponentsContainer.vue";
 import PrimarySidebarContainer from "./PrimarySidebarContainer.vue";
 import SecondarySidebarContainer from "./SecondarySidebarContainer.vue";
 import store from "@/app/store";
+import WGrid from "@/components/WLayout/WGrid/WGrid";
+import WCol from "@/components/WLayout/WCol/WCol";
 
 store.dispatch("ComponentsStore/LoadComponents");
 </script>
