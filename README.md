@@ -1,12 +1,5 @@
 # Milky Way Toolkit for Vue
 
-<p align="left">
-  <a href="https://github.com/vuetifyjs/vuetify/blob/master/LICENSE.md">
-    <img src="https://img.shields.io/apm/l/vim-mode?style=flat" alt="License">
-  </a>
-  <br>
-</p>
-
 Milky Way Toolkit - This is a set of packages for developing front-end applications with Vue. It contains everything you need, as well as a package for developing Vue.js components - Space - (similar to a storybook, but faster).
 
 ## Packages:
@@ -54,6 +47,8 @@ yarn build
 
 ## License
 
-MIT
+<p align="left">
+    <img src="https://img.shields.io/apm/l/vim-mode?style=flat" alt="License">
+</p>
 
 All questions: nefayran@gmail.com
