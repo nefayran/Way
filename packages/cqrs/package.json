@@ -1,11 +1,11 @@
 {
-  "name": "@way/sprites",
+  "name": "@way/cqrs",
   "version": "0.0.1",
-  "description": "Milky way sprites and icons system",
+  "description": "Milky way core system for frontend applications",
   "keywords": [
-    "sprite",
-    "icons",
-    "vue"
+    "vue",
+    "component",
+    "typescript"
   ],
   "url": "https://github.com/nefayran/Way",
   "homepage": "https://github.com/nefayran/Way",

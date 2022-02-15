@@ -20,8 +20,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@way/eslint-config": "^1.0.0",
-    "@way/tsconfig": "^1.0.0"
+    "@way/eslint-config": "^0.0.1",
+    "@way/tsconfig": "^0.0.1"
   },
   "devDependencies": {
     "typescript": "4.5.4",
