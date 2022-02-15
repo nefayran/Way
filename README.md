@@ -1,5 +1,12 @@
 # Milky Way Toolkit for Vue
 
+<p align="left">
+  <a href="https://github.com/vuetifyjs/vuetify/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/apm/l/vim-mode?style=flat" alt="License">
+  </a>
+  <br>
+</p>
+
 Milky Way Toolkit - This is a set of packages for developing front-end applications with Vue. It contains everything you need, as well as a package for developing Vue.js components - Space - (similar to a storybook, but faster).
 
 ## Packages:
@@ -13,8 +20,9 @@ Milky Way Toolkit - This is a set of packages for developing front-end applicati
 - [Styles](packages/styles/README.md) - Styles library;
 - [Services](packages/services/README.md) - Error, Notification, Auth and Utils services (soon...);
 - [Examples](packages/examples/README.md) - Examples for how to use packages;
-- [TypeScript config](packages/tsconfig/README.md)
-- [Eslint config](packages/eslint-config/README.md)
+* Config packages
+  * [TypeScript config](packages/config/tsconfig/README.md)
+  * [Eslint config](packages/config/eslint-config/README.md)
 
 ## Installation
 
