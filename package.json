@@ -1,6 +1,5 @@
 {
   "name": "waykit",
-  "version": "0.0.2-alpha",
   "private": true,
   "workspaces": [
     "packages/**"

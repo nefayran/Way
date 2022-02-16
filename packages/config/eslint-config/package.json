@@ -34,5 +34,8 @@
   "devDependencies": {
     "prettier": "^2.5.1"
   },
-  "gitHead": "9f186e195cb8ec209dc2b3cf4c6426f968369635"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "e886aa04cc69b01de50b8461c90f7c8c8a0dbf70"
 }
