@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://github.com/nefayran/Way/" target="_blank">
     <img alt="Way Logo" width="100" src="https://github.com/nefayran/Way/public/WayLogo.png">
+  </a>
 </p>
 
 Milky Way Toolkit - This is a set of packages for developing front-end applications with Vue. It contains everything you need, as well as a package for developing Vue.js components - Space - (similar to a storybook, but faster).
