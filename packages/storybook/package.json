@@ -1,6 +1,6 @@
 {
   "name": "@way/storybook",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "files": [
     "storybook-static"
   ],
@@ -10,24 +10,24 @@
     "build": "build-storybook"
   },
   "dependencies": {
-    "@way/eslint-config": "^0.0.1",
-    "@way/styles": "^0.0.1",
-    "@way/tsconfig": "^0.0.1",
-    "@way/space": "^0.0.1",
+    "@way/eslint-config": "^0.0.2-alpha.0",
+    "@way/space": "^0.0.2-alpha.0",
+    "@way/styles": "^0.0.2-alpha.0",
+    "@way/tsconfig": "^0.0.2-alpha.0",
     "vue": "^3.2.28"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.2.26",
-    "prettier": "^2.5.1",
-    "typescript": "4.5.4",
-    "vue-tsc": "^0.30.2",
     "@babel/core": "^7.16.10",
     "@storybook/addon-actions": "^6.4.13",
     "@storybook/addon-essentials": "^6.4.13",
     "@storybook/addon-links": "^6.4.13",
     "@storybook/vue3": "^6.4.13",
+    "@vue/compiler-sfc": "^3.2.26",
     "babel-loader": "^8.2.3",
+    "prettier": "^2.5.1",
+    "sass-loader": "^10.2.1",
+    "typescript": "4.5.4",
     "vue-loader": "^16.8.3",
-    "sass-loader": "^10.2.1"
+    "vue-tsc": "^0.30.2"
   }
 }

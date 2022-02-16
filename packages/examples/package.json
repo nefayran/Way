@@ -1,6 +1,6 @@
 {
   "name": "@way/examples",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Milky way examples",
   "keywords": [
     "api",
@@ -15,16 +15,16 @@
     "examples:api": "tsc ./api/axios/index.ts && node ./api/axios/index.js"
   },
   "dependencies": {
-    "@way/eslint-config": "^0.0.1",
-    "@way/tsconfig": "^0.0.1",
-    "@way/api": "^0.0.1",
+    "@way/api": "^0.0.2-alpha.0",
+    "@way/eslint-config": "^0.0.2-alpha.0",
+    "@way/tsconfig": "^0.0.2-alpha.0",
     "axios": "^0.25.0",
     "ts-node": "^10.4.0"
   },
   "devDependencies": {
-    "typescript": "4.5.4",
-    "express": "^4.17.2",
     "@types/express": "^4.17.13",
-    "nodemon": "^2.0.15"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "typescript": "4.5.4"
   }
 }

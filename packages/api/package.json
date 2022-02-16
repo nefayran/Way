@@ -1,6 +1,6 @@
 {
   "name": "@way/api",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Milky way api client for frontend applications",
   "keywords": [
     "api",
@@ -21,8 +21,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@way/eslint-config": "^0.0.1",
-    "@way/tsconfig": "^0.0.1"
+    "@way/eslint-config": "^0.0.2-alpha.0",
+    "@way/tsconfig": "^0.0.2-alpha.0"
   },
   "devDependencies": {
     "typescript": "4.5.4",

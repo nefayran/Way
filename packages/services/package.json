@@ -1,6 +1,6 @@
 {
   "name": "@way/services",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Milky way core system for frontend applications",
   "keywords": [
     "vue",

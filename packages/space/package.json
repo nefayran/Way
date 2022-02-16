@@ -1,6 +1,6 @@
 {
   "name": "@way/space",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Milky way space system for creating components",
   "keywords": [
     "vue",
@@ -34,11 +34,11 @@
     "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'"
   },
   "dependencies": {
-    "@way/eslint-config": "^0.0.1",
-    "@way/fonts": "^0.0.1",
-    "@way/sprites": "^0.0.1",
-    "@way/styles": "^0.0.1",
-    "@way/tsconfig": "^0.0.1",
+    "@way/eslint-config": "^0.0.2-alpha.0",
+    "@way/fonts": "^0.0.2-alpha.0",
+    "@way/sprites": "^0.0.2-alpha.0",
+    "@way/styles": "^0.0.2-alpha.0",
+    "@way/tsconfig": "^0.0.2-alpha.0",
     "start-server-and-test": "^1.14.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
@@ -47,6 +47,7 @@
   "devDependencies": {
     "@cypress/vite-dev-server": "^1.2.5",
     "@cypress/vue": "^3.1.0",
+    "@rollup/plugin-typescript": "^8.3.0",
     "@vitejs/plugin-vue": "^2.0.1",
     "@vue/cli-plugin-unit-jest": "^4.5.15",
     "@vue/compiler-sfc": "^3.2.26",
@@ -60,8 +61,7 @@
     "vite": "^2.7.12",
     "vite-plugin-dts": "^0.9.9",
     "vue-jest": "^5.0.0-alpha.10",
-    "vue-loader": "^17.0.0",
-    "@rollup/plugin-typescript": "^8.3.0"
+    "vue-loader": "^17.0.0"
   },
   "postcss": {
     "plugins": {
