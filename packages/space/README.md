@@ -22,8 +22,8 @@ npm run start
 ```sh
 yarn start
 ```
-Add components to your directory.
-Use .env file for configuration path to your components.
+Add components to directory.
+Use index.js file for configuration your components.
 ## How to build components
 ```sh
 npm run build

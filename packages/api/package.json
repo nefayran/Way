@@ -16,6 +16,7 @@
     "/dist"
   ],
   "scripts": {
+    "clean": "rimraf ./dist",
     "test": "jest --coverage",
     "build": "tsc"
   },

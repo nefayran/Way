@@ -18,7 +18,6 @@
           <span>
             {{ name }}
           </span>
-          <input :value="value" type="text" />
         </li>
       </ul>
     </div>
@@ -33,18 +32,12 @@ const wbComponent = computed(
   () => store.getters["ComponentsStore/getComponent"]
 );
 const properties = ref();
-// const propsPromise = wbComponent.prop;
-// const properties = ref(propsPromise());
-// console.log(wbComponent.value.props);
-// const properties = propsPromise.then((result: any) => result);
-// const props = await wbComponent.value.props;
 
 watchEffect(async () => {
   if (wbComponent.value && wbComponent.value.props) {
     properties.value = await wbComponent.value.props;
   }
 });
-// console.log(propsPromise));
 </script>
 
 <style lang="scss">

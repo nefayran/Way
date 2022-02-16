@@ -25,16 +25,17 @@
   },
   "scripts": {
     "start": "yarn test && vite",
+    "clean": "rimraf ./dist",
     "serve": "yarn build && vite preview --port 3000",
     "lint": "eslint --ext .js,.ts,.vue",
     "build": "vite build && postcss dist/styles.css > dist/styles.min.css",
-    "types": "vue-tsc --emitDeclarationOnly",
     "test": "jest --updateSnapshot --coverage",
     "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'"
   },
   "dependencies": {
     "@way/eslint-config": "^0.0.1",
     "@way/fonts": "^0.0.1",
+    "@way/sprites": "^0.0.1",
     "@way/styles": "^0.0.1",
     "@way/tsconfig": "^0.0.1",
     "start-server-and-test": "^1.14.0",
@@ -56,9 +57,10 @@
     "prettier": "^2.5.1",
     "typescript": "4.5.4",
     "vite": "^2.7.12",
+    "vite-plugin-dts": "^0.9.9",
     "vue-jest": "^5.0.0-alpha.10",
     "vue-loader": "^17.0.0",
-    "vue-tsc": "^0.30.2"
+    "@rollup/plugin-typescript": "^8.3.0"
   },
   "postcss": {
     "plugins": {

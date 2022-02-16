@@ -24,12 +24,6 @@ const wbComponent = computed(
 const properties = ref({
   color: "black",
 });
-
-// watchEffect(async () => {
-//   if (wbComponent.value && wbComponent.value.props) {
-//     properties.value = await wbComponent.value.props;
-//   }
-// });
 </script>
 
 <style lang="scss">

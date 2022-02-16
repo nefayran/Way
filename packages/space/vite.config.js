@@ -1,5 +1,6 @@
 // vite.config.ts
 import vue from "@vitejs/plugin-vue";
+import typescript from "@rollup/plugin-typescript";
 
 const path = require("path");
 const { defineConfig } = require("vite");
@@ -42,6 +43,19 @@ module.exports = defineConfig({
           return assetInfo.name;
         },
       },
+      plugins: [
+        typescript({
+          target: "esnext",
+          rootDir: path.resolve(__dirname, "./src/components"),
+          declaration: true,
+          declarationDir: path.resolve(__dirname, "./dist/types"),
+          exclude: [
+            path.resolve(__dirname, "../node_modules/**"),
+            "**/__tests__/**",
+          ],
+          allowSyntheticDefaultImports: true,
+        }),
+      ],
     },
   },
 });

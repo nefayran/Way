@@ -24,7 +24,9 @@ exports[`MainContainer.vue should have an wb-container class 1`] = `
     <div class="w-col col col-2">
       <div class="wb-container">
         <div class="wb-sidebar ma-md pa-lg br-lg">
-          <h1 class="text-accent--base font-secondary">@way</h1><button class="border-no pa-xs br-sm accent--base"><span class="font-secondary">light</span></button>
+          <h1 class="text-accent--base font-secondary">@way</h1><svg class="w-sprite" width="128" height="128" aria-hidden="true" style="color: rgb(51, 51, 51);" fill="#fffccc">
+            <use xlink:href="#sprite-logo"></use>
+          </svg><button class="border-no pa-xs br-sm accent--base"><span class="font-secondary">light</span></button>
           <h3 class="pt-lg">Components:</h3>
           <ul class="pl-md pt-md white--base list-none">
             <li class="text-md pb-md text-primary--accent-1"><span>WApp</span></li>

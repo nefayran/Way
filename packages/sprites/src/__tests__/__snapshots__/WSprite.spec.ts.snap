@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WSprite.vue should have an w-sprite class 1`] = `
+<svg class="w-sprite" width="50" height="60" aria-hidden="true" style="color: rgb(255, 255, 255);">
+  <use xlink:href="#test-color"></use>
+</svg>
+`;

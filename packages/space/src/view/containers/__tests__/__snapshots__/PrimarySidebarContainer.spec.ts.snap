@@ -12,6 +12,18 @@ exports[`PrimarySidebarContainer.vue generate components list 1`] = `
     >
       @way
     </h1>
+    <svg
+      aria-hidden="true"
+      class="w-sprite"
+      fill="#fffccc"
+      height="128"
+      style="color: rgb(51, 51, 51);"
+      width="128"
+    >
+      <use
+        xlink:href="#sprite-logo"
+      />
+    </svg>
     <button
       class="border-no pa-xs br-sm accent--base"
     >
@@ -48,6 +60,18 @@ exports[`PrimarySidebarContainer.vue should have an wb-container class 1`] = `
     >
       @way
     </h1>
+    <svg
+      aria-hidden="true"
+      class="w-sprite"
+      fill="#fffccc"
+      height="128"
+      style="color: rgb(51, 51, 51);"
+      width="128"
+    >
+      <use
+        xlink:href="#sprite-logo"
+      />
+    </svg>
     <button
       class="border-no pa-xs br-sm accent--base"
     >

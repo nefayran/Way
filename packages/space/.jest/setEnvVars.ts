@@ -1,1 +1,0 @@
-﻿process.env.COMPONENTS = "\\src\\components"

@@ -18,6 +18,7 @@
   "main": "dist/styles.min.css",
   "sass": "src/_index.scss",
   "scripts": {
+    "clean": "rimraf ./dist",
     "build": "sass src/_index.scss dist/styles.css && postcss dist/styles.css > dist/styles.min.css"
   },
   "devDependencies": {

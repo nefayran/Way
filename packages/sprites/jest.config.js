@@ -15,10 +15,7 @@
   collectCoverageFrom: [
     "src/**/*.{ts,tsx,vue}",
     "!**/node_modules/**",
-    "!**/router/**",
-    "!**/shims-**",
     "!**/index.**",
-    "!**/main.**",
   ],
   coverageReporters: ["lcov", "html", "text"],
 };

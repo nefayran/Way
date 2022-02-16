@@ -5,9 +5,9 @@
     "outDir": "./dist",
     "types": ["vite", "jest"],
     "baseUrl": "./",
+    "esModuleInterop": true,
     "paths": {
       "@/*": ["src/*"]
     },
   },
-  "exclude": ["node_modules", "**/__tests__/*"]
 }

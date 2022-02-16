@@ -1,12 +1,22 @@
 ﻿<template>
   <div class="wb-container">
     <div class="wb-sidebar ma-md pa-lg br-lg">
-      <h1 class="text-accent--base font-secondary">@way</h1>
-      <button class="border-no pa-xs br-sm accent--base" @click="switchTheme">
-        <span class="font-secondary">
-          {{ theme }}
-        </span>
-      </button>
+      <w-grid cols="2">
+        <w-col>
+          <h1 class="text-accent--base font-secondary">@way</h1>
+          <button
+            class="border-no pa-xs br-sm accent--base"
+            @click="switchTheme"
+          >
+            <span class="font-secondary">
+              {{ theme }}
+            </span>
+          </button>
+        </w-col>
+        <w-col>
+          <w-sprite name="logo" fill="#fffccc" width="50" height="85" />
+        </w-col>
+      </w-grid>
       <h3 class="pt-lg">Components:</h3>
       <ul class="pl-md pt-md white--base list-none">
         <li
@@ -26,6 +36,9 @@
 
 <script async setup lang="ts">
 import { computed } from "vue";
+import { WSprite } from "@way/sprites";
+import WGrid from "@/components/WLayout/WGrid/WGrid";
+import WCol from "@/components/WLayout/WCol/WCol";
 import store from "@/app/store";
 
 const theme = computed(() => store.getters["SettingsStore/getTheme"]);
