@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/nefayran/Way/" target="_blank">
-    <img alt="Way Logo" width="100" src="https://github.com/nefayran/Way/public/WayLogo.png">
+    <img alt="Way Logo" width="100" src="https://github.com/nefayran/Way/blob/main/public/WayLogo.png">
   </a>
 </p>
 
