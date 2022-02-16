@@ -1,6 +1,5 @@
 {
   "name": "way",
-  "private": false,
   "workspaces": [
     "packages/**"
   ],

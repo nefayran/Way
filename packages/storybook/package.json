@@ -29,5 +29,6 @@
     "typescript": "4.5.4",
     "vue-loader": "^16.8.3",
     "vue-tsc": "^0.30.2"
-  }
+  },
+  "gitHead": "57d4cd569b82f3f0fa386b2ddfa52d71f16a7cfb"
 }

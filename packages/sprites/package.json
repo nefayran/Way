@@ -45,5 +45,6 @@
     "vite-plugin-svg-icons": "^2.0.1",
     "vue-jest": "^5.0.0-alpha.10",
     "vue-tsc": "^0.31.4"
-  }
+  },
+  "gitHead": "57d4cd569b82f3f0fa386b2ddfa52d71f16a7cfb"
 }
