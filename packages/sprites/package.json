@@ -1,6 +1,6 @@
 {
   "name": "@waykit/sprites",
-  "version": "0.0.4-alpha.0",
+  "version": "0.0.5-alpha.0",
   "description": "Milky way sprites and icons system",
   "keywords": [
     "sprite",
@@ -29,8 +29,8 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@waykit/eslint-config": "^0.0.4-alpha.0",
-    "@waykit/tsconfig": "^0.0.4-alpha.0",
+    "@waykit/eslint-config": "^0.0.5-alpha.0",
+    "@waykit/tsconfig": "^0.0.5-alpha.0",
     "vue": "^3.2.16"
   },
   "devDependencies": {
