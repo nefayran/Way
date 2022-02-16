@@ -1,6 +1,6 @@
 {
   "name": "@waykit/examples",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.4-alpha.0",
   "description": "Milky way examples",
   "keywords": [
     "api",
@@ -15,9 +15,9 @@
     "examples:api": "tsc ./api/axios/index.ts && node ./api/axios/index.js"
   },
   "dependencies": {
-    "@waykit/api": "^0.0.3-alpha.0",
-    "@waykit/eslint-config": "^0.0.3-alpha.0",
-    "@waykit/tsconfig": "^0.0.3-alpha.0",
+    "@waykit/api": "^0.0.4-alpha.0",
+    "@waykit/eslint-config": "^0.0.4-alpha.0",
+    "@waykit/tsconfig": "^0.0.4-alpha.0",
     "axios": "^0.25.0",
     "ts-node": "^10.4.0"
   },
