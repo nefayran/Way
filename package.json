@@ -1,6 +1,6 @@
 {
   "name": "way",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/**"
   ],
@@ -11,6 +11,7 @@
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
     "build": "yarn bootstrap && yarn test && yarn clean && yarn lint && lerna run build",
+    "build:space": "yarn build && lerna run build:space",
     "pub": "lerna publish",
     "dev": "lerna run dev --stream",
     "storybook": "lerna run storybook"
@@ -23,9 +24,7 @@
     "jest-transform-stub": "^2.0.0",
     "lerna": "~3.14.0",
     "prettier": "^2.5.1",
-    "ts-jest": "^26.5.6"
-  },
-  "dependencies": {
+    "ts-jest": "^26.5.6",
     "rimraf": "^3.0.2"
   }
 }

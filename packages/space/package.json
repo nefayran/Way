@@ -28,7 +28,8 @@
     "clean": "rimraf ./dist",
     "serve": "yarn build && vite preview --port 3000",
     "lint": "eslint --ext .js,.ts,.vue",
-    "build": "vite build && postcss dist/styles.css > dist/styles.min.css",
+    "build": "vite build -c vite.config.js && postcss dist/styles.css > dist/styles.min.css",
+    "build:space": "vite build -c vite.space.config.js",
     "test": "jest --updateSnapshot --coverage",
     "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'"
   },
