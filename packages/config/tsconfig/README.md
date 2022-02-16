@@ -1,4 +1,4 @@
-# @way/tsconfig
+# @waykit/tsconfig
 ##TypeScript Config
 
 Shared TypeScript config for @way project and micro/monolithic frontend projects.
@@ -7,16 +7,16 @@ Shared TypeScript config for @way project and micro/monolithic frontend projects
 
 ### npm
 ```sh
-npm install @way/tsconfig@latest
+npm install @waykit/tsconfig@latest
 ```
 ### yarn
 ```sh
-yarn add @way/tsconfig@latest
+yarn add @waykit/tsconfig@latest
 ```
 ## How to use
 Add to your tsconfig.json:
 ```sh
-"extends": "@way/tsconfig/tsconfig.json",
+"extends": "@waykit/tsconfig/tsconfig.json",
 ```
 ## License
 

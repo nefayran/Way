@@ -1,4 +1,4 @@
-# @way/api
+# @waykit/api
 ## API Client
 Clean TS client for API realisation.
 You can use:
@@ -10,11 +10,11 @@ You can use:
 
 ### npm
 ```sh
-npm install @way/api
+npm install @waykit/api
 ```
 ### yarn
 ```sh
-yarn add @way/api
+yarn add @waykit/api
 ```
 ## How to use
 ... soon

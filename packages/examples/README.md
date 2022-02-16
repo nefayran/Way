@@ -1,14 +1,14 @@
-# @way/examples
+# @waykit/examples
 
 ## Installation
 
 ### npm
 ```sh
-npm install @way/examples
+npm install @waykit/examples
 ```
 ### yarn
 ```sh
-yarn add @way/examples
+yarn add @waykit/examples
 ```
 ## Packages examples
 

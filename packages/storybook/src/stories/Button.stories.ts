@@ -1,4 +1,4 @@
-import { WButton } from "@way/space";
+import { WButton } from "@waykit/space";
 
 export default {
   title: "WButton",

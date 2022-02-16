@@ -1,5 +1,5 @@
 {
-  "name": "@way/services",
+  "name": "@waykit/services",
   "version": "0.0.3-alpha.0",
   "description": "Milky way core system for frontend applications",
   "keywords": [
@@ -11,5 +11,5 @@
   "homepage": "https://github.com/nefayran/Way",
   "author": "https://github.com/nefayran",
   "license": "MIT",
-  "gitHead": "57d4cd569b82f3f0fa386b2ddfa52d71f16a7cfb"
+  "gitHead": "9f186e195cb8ec209dc2b3cf4c6426f968369635"
 }

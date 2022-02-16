@@ -36,7 +36,7 @@
 
 <script async setup lang="ts">
 import { computed } from "vue";
-import { WSprite } from "@way/sprites";
+import { WSprite } from "@waykit/sprites";
 import WGrid from "@/components/WLayout/WGrid/WGrid";
 import WCol from "@/components/WLayout/WCol/WCol";
 import store from "@/app/store";

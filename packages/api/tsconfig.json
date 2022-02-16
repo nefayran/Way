@@ -1,5 +1,5 @@
 {
-  "extends": "@way/tsconfig/tsconfig.json",
+  "extends": "@waykit/tsconfig/tsconfig.json",
   "compilerOptions": {
     "declaration": true,
     "module": "commonjs",

@@ -1,4 +1,4 @@
-# @way/storybook
+# @waykit/storybook
 ## Storybook
 Storybook realisation for presentation components and other stories.
 
@@ -6,11 +6,11 @@ Storybook realisation for presentation components and other stories.
 
 ### npm
 ```sh
-npm install @way/storybook
+npm install @waykit/storybook
 ```
 ### yarn
 ```sh
-yarn add @way/storybook
+yarn add @waykit/storybook
 ```
 ## Run storybook
 From root @way

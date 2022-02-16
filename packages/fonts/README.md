@@ -1,4 +1,4 @@
-# @way/fonts
+# @waykit/fonts
 
 Shared fonts for @way project and micro/monolithic frontend projects.
 
@@ -6,18 +6,18 @@ Shared fonts for @way project and micro/monolithic frontend projects.
 
 ### npm
 ```sh
-npm install @way/fonts
+npm install @waykit/fonts
 ```
 ### yarn
 ```sh
-yarn add @way/fonts
+yarn add @waykit/fonts
 ```
 ## How to use
 Add to your main.*:
 ```sh
-import "@way/fonts";
+import "@waykit/fonts";
 ```
-and config @way/styles package for fonts.
+and config @waykit/styles package for fonts.
 ## License
 
 MIT

@@ -1,6 +1,6 @@
 import "../src/styles/styles.scss";
-import "@way/fonts"
-import { WApp } from "@way/space"
+import "@waykit/fonts";
+import { WApp } from "@waykit/space";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -10,9 +10,11 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};
 
-export const decorators = [(story) => ({
-  components: { story, WApp },
-  template: `<w-app theme='light'><story /></w-app>`
-})];
+export const decorators = [
+  (story) => ({
+    components: { story, WApp },
+    template: `<w-app theme='light'><story /></w-app>`,
+  }),
+];

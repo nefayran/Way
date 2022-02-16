@@ -1,4 +1,4 @@
-# @way/cqrs
+# @waykit/cqrs
 ## CQRS Base
 Based classes for CQRS realisation.
 
@@ -6,11 +6,11 @@ Based classes for CQRS realisation.
 
 ### npm
 ```sh
-npm install @way/cqrs
+npm install @waykit/cqrs
 ```
 ### yarn
 ```sh
-yarn add @way/cqrs
+yarn add @waykit/cqrs
 ```
 ## How to use
 ... soon

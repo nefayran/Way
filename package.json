@@ -1,5 +1,7 @@
 {
-  "name": "way",
+  "name": "waykit",
+  "version": "0.0.2-alpha",
+  "private": true,
   "workspaces": [
     "packages/**"
   ],
@@ -8,7 +10,7 @@
     "clean": "lerna run clean",
     "lint": "lerna run lint --stream",
     "test": "lerna run test --stream",
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --hoist",
     "build": "yarn bootstrap && yarn test && yarn clean && yarn lint && lerna run build",
     "build:space": "yarn build && lerna run build:space",
     "pub": "lerna publish",
@@ -23,7 +25,7 @@
     "jest-transform-stub": "^2.0.0",
     "lerna": "~3.14.0",
     "prettier": "^2.5.1",
-    "ts-jest": "^26.5.6",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.6"
   }
 }

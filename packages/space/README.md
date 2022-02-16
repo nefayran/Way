@@ -1,4 +1,4 @@
-# @way/space
+# @waykit/space
 ## Space
 Space for creating Vue components.
 You can conveniently and quickly create components for vue in this space.
@@ -7,11 +7,11 @@ You can conveniently and quickly create components for vue in this space.
 
 ### npm
 ```sh
-npm install @way/space@latest
+npm install @waykit/space@latest
 ```
 ### yarn
 ```sh
-yarn add @way/space@latest
+yarn add @waykit/space@latest
 ```
 ## How to start
 For developing new components from root @way:

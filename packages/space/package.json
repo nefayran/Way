@@ -1,5 +1,5 @@
 {
-  "name": "@way/space",
+  "name": "@waykit/space",
   "version": "0.0.3-alpha.0",
   "description": "Milky way space system for creating components",
   "keywords": [
@@ -34,11 +34,11 @@
     "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'"
   },
   "dependencies": {
-    "@way/eslint-config": "^0.0.3-alpha.0",
-    "@way/fonts": "^0.0.3-alpha.0",
-    "@way/sprites": "^0.0.3-alpha.0",
-    "@way/styles": "^0.0.3-alpha.0",
-    "@way/tsconfig": "^0.0.3-alpha.0",
+    "@waykit/eslint-config": "^0.0.3-alpha.0",
+    "@waykit/fonts": "^0.0.3-alpha.0",
+    "@waykit/sprites": "^0.0.3-alpha.0",
+    "@waykit/styles": "^0.0.3-alpha.0",
+    "@waykit/tsconfig": "^0.0.3-alpha.0",
     "start-server-and-test": "^1.14.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
@@ -73,5 +73,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "gitHead": "57d4cd569b82f3f0fa386b2ddfa52d71f16a7cfb"
+  "gitHead": "9f186e195cb8ec209dc2b3cf4c6426f968369635"
 }

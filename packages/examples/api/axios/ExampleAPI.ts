@@ -1,4 +1,4 @@
-﻿import { HttpMethod, IAuth, IRequest, IToken } from "@way/api";
+﻿import { HttpMethod, IAuth, IRequest, IToken } from "@waykit/api";
 import { AxiosResponse } from "axios";
 
 export namespace ExampleAPI {

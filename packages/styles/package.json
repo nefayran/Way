@@ -1,5 +1,5 @@
 {
-  "name": "@way/styles",
+  "name": "@waykit/styles",
   "description": "Milky way styles system",
   "keywords": [
     "css",
@@ -39,5 +39,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "gitHead": "57d4cd569b82f3f0fa386b2ddfa52d71f16a7cfb"
+  "gitHead": "9f186e195cb8ec209dc2b3cf4c6426f968369635"
 }

@@ -1,5 +1,5 @@
 ﻿import axios from "axios";
-import { ApiClient } from "@way/api";
+import { ApiClient } from "@waykit/api";
 import ExampleRequest from "./ExampleRequest";
 import { ExampleAPI } from "./ExampleAPI";
 

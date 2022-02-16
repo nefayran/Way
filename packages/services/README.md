@@ -1,4 +1,4 @@
-# @way/services
+# @waykit/services
 ## Base Services
 
 - Notification
@@ -9,11 +9,11 @@
 
 ### npm
 ```sh
-npm install @way/services
+npm install @waykit/services
 ```
 ### yarn
 ```sh
-yarn add @way/services
+yarn add @waykit/services
 ```
 ## How to use
 ... soon

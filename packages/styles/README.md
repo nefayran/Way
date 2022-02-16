@@ -1,4 +1,4 @@
-# @way/styles
+# @waykit/styles
 ## Styles library
 Styles library include:
 - Grid system
@@ -10,16 +10,16 @@ Styles library include:
 
 ### npm
 ```sh
-npm install @way/styles
+npm install @waykit/styles
 ```
 ### yarn
 ```sh
-yarn add @way/styles
+yarn add @waykit/styles
 ```
 ## How to use
 Add to your main.*:
 ```sh
-import "@way/styles";
+import "@waykit/styles";
 ```
 ## License
 

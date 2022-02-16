@@ -1,4 +1,4 @@
-# @way/eslint-config
+# @waykit/eslint-config
 ## Eslint Config
 Shared Eslint config for @way project and micro/monolithic frontend projects.
 
@@ -6,16 +6,16 @@ Shared Eslint config for @way project and micro/monolithic frontend projects.
 
 ### npm
 ```sh
-npm install @way/eslint-config
+npm install @waykit/eslint-config
 ```
 ### yarn
 ```sh
-yarn add @way/eslint-config
+yarn add @waykit/eslint-config
 ```
 ## How to use
 Add to eslint.js:
 ```sh
-extends: ["@way/eslint-config"],
+extends: ["@waykit/eslint-config"],
 ```
 ## License
 

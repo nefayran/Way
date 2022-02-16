@@ -2,8 +2,8 @@ import { createApp } from "vue";
 import App from "./App.vue";
 
 import router from "./app/router";
-import "@way/styles";
-import "@way/fonts";
+import "@waykit/styles";
+import "@waykit/fonts";
 
 const app = createApp(App);
 

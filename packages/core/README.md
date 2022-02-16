@@ -1,4 +1,4 @@
-# @way/core
+# @waykit/core
 ## Clean Frontend Core
 Core files for realisation frontend clean architecture
 
@@ -6,11 +6,11 @@ Core files for realisation frontend clean architecture
 
 ### npm
 ```sh
-npm install @way/core
+npm install @waykit/core
 ```
 ### yarn
 ```sh
-yarn add @way/core
+yarn add @waykit/core
 ```
 ## How to use
 ... soon
