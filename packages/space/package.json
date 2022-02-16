@@ -1,6 +1,6 @@
 {
   "name": "@way/space",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.3-alpha.0",
   "description": "Milky way space system for creating components",
   "keywords": [
     "vue",
@@ -34,11 +34,11 @@
     "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'"
   },
   "dependencies": {
-    "@way/eslint-config": "^0.0.2-alpha.0",
-    "@way/fonts": "^0.0.2-alpha.0",
-    "@way/sprites": "^0.0.2-alpha.0",
-    "@way/styles": "^0.0.2-alpha.0",
-    "@way/tsconfig": "^0.0.2-alpha.0",
+    "@way/eslint-config": "^0.0.3-alpha.0",
+    "@way/fonts": "^0.0.3-alpha.0",
+    "@way/sprites": "^0.0.3-alpha.0",
+    "@way/styles": "^0.0.3-alpha.0",
+    "@way/tsconfig": "^0.0.3-alpha.0",
     "start-server-and-test": "^1.14.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
