@@ -9,7 +9,7 @@
     "clean": "lerna run clean",
     "lint": "lerna run lint --stream",
     "test": "lerna run test --stream",
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "build": "yarn bootstrap && yarn test && yarn clean && yarn lint && lerna run build",
     "build:space": "yarn build && lerna run build:space",
     "pub": "lerna publish",

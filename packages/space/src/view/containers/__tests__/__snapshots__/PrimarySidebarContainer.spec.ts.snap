@@ -7,32 +7,44 @@ exports[`PrimarySidebarContainer.vue generate components list 1`] = `
   <div
     class="wb-sidebar ma-md pa-lg br-lg"
   >
-    <h1
-      class="text-accent--base font-secondary"
+    <div
+      class="w-grid grid cols-2"
     >
-      @way
-    </h1>
-    <svg
-      aria-hidden="true"
-      class="w-sprite"
-      fill="#fffccc"
-      height="128"
-      style="color: rgb(51, 51, 51);"
-      width="128"
-    >
-      <use
-        xlink:href="#sprite-logo"
-      />
-    </svg>
-    <button
-      class="border-no pa-xs br-sm accent--base"
-    >
-      <span
-        class="font-secondary"
+      <div
+        class="w-col col col-1"
       >
-        light
-      </span>
-    </button>
+        <h1
+          class="text-accent--base font-secondary"
+        >
+          @way
+        </h1>
+        <button
+          class="border-no pa-xs br-sm accent--base"
+        >
+          <span
+            class="font-secondary"
+          >
+            light
+          </span>
+        </button>
+      </div>
+      <div
+        class="w-col col col-1"
+      >
+        <svg
+          aria-hidden="true"
+          class="w-sprite"
+          fill="#fffccc"
+          height="85"
+          style="color: rgb(51, 51, 51);"
+          width="50"
+        >
+          <use
+            xlink:href="#sprite-logo"
+          />
+        </svg>
+      </div>
+    </div>
     <h3
       class="pt-lg"
     >
@@ -55,32 +67,44 @@ exports[`PrimarySidebarContainer.vue should have an wb-container class 1`] = `
   <div
     class="wb-sidebar ma-md pa-lg br-lg"
   >
-    <h1
-      class="text-accent--base font-secondary"
+    <div
+      class="w-grid grid cols-2"
     >
-      @way
-    </h1>
-    <svg
-      aria-hidden="true"
-      class="w-sprite"
-      fill="#fffccc"
-      height="128"
-      style="color: rgb(51, 51, 51);"
-      width="128"
-    >
-      <use
-        xlink:href="#sprite-logo"
-      />
-    </svg>
-    <button
-      class="border-no pa-xs br-sm accent--base"
-    >
-      <span
-        class="font-secondary"
+      <div
+        class="w-col col col-1"
       >
-        light
-      </span>
-    </button>
+        <h1
+          class="text-accent--base font-secondary"
+        >
+          @way
+        </h1>
+        <button
+          class="border-no pa-xs br-sm accent--base"
+        >
+          <span
+            class="font-secondary"
+          >
+            light
+          </span>
+        </button>
+      </div>
+      <div
+        class="w-col col col-1"
+      >
+        <svg
+          aria-hidden="true"
+          class="w-sprite"
+          fill="#fffccc"
+          height="85"
+          style="color: rgb(51, 51, 51);"
+          width="50"
+        >
+          <use
+            xlink:href="#sprite-logo"
+          />
+        </svg>
+      </div>
+    </div>
     <h3
       class="pt-lg"
     >
