@@ -1,6 +1,6 @@
 {
   "name": "@waykit/space",
-  "version": "0.0.6-alpha.0",
+  "version": "0.0.7-alpha.0",
   "description": "Milky way space system for creating components",
   "keywords": [
     "vue",
@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "@waykit/eslint-config": "^0.0.3-alpha.0",
-    "@waykit/sprites": "^0.0.3-alpha.0",
-    "@waykit/styles": "^0.0.6-alpha.0",
+    "@waykit/sprites": "^0.0.4-alpha.0",
+    "@waykit/styles": "^0.0.7-alpha.0",
     "@waykit/tsconfig": "^0.0.3-alpha.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
