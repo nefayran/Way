@@ -1,6 +1,7 @@
 {
   "name": "@waykit/fonts",
   "description": "Milky way styles system",
+  "private": true,
   "keywords": [
     "css",
     "fonts"
