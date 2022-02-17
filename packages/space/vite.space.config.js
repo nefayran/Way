@@ -13,9 +13,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"), // for @
     },
   },
-  server: {
-    port: 4000, // Default port.
-    open: true,
-    cors: true,
+  build: {
+    outDir: path.resolve(__dirname, ".space"),
   },
 });

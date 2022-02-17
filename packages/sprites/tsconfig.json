@@ -2,7 +2,7 @@
   "extends": "@waykit/tsconfig/tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "./dist/types",
     "types": ["vite", "jest"],
     "baseUrl": "./",
     "esModuleInterop": true,
@@ -10,4 +10,5 @@
       "@/*": ["src/*"]
     },
   },
+  "exclude": ["node_modules", "**/__tests__/*"]
 }

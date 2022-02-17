@@ -1,5 +1,4 @@
 import "../src/styles/styles.scss";
-import "@waykit/fonts";
 import { WApp } from "@waykit/space";
 
 export const parameters = {

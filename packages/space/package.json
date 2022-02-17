@@ -11,49 +11,45 @@
   "homepage": "https://github.com/nefayran/Way",
   "author": "https://github.com/nefayran",
   "license": "MIT",
-  "main": "./dist/components.umd.js",
-  "module": "./dist/components.es.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "./dist/components/components.umd.js",
+  "module": "./dist/components/components.es.js",
+  "types": "./dist/types/components/index.d.ts",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/components.es.js",
-      "require": "./dist/components.umd.js"
+      "import": "./dist/components/components.es.js",
+      "require": "./dist/components/components.umd.js"
     }
   },
   "scripts": {
-    "start": "yarn test && vite",
+    "start": "yarn test && vite -c vite.space.config.js",
     "clean": "rimraf ./dist",
-    "serve": "yarn build && vite preview --port 3000",
+    "space": "yarn build:space && vite preview -c vite.space.config.js --port 3000",
     "lint": "eslint --ext .js,.ts,.vue",
-    "build": "vite build -c vite.config.js && postcss dist/styles.css > dist/styles.min.css",
-    "build:space": "vite build -c vite.space.config.js",
+    "postcss": "postcss dist/components/styles.css > dist/components/styles.min.css",
+    "types": "tsc --emitDeclarationOnly",
     "test": "jest --updateSnapshot --coverage",
-    "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'"
+    "build": "vite build -c vite.components.config.js && yarn postcss && yarn types && yarn build:space",
+    "build:space": "vite build -c vite.space.config.js"
   },
   "dependencies": {
     "@waykit/eslint-config": "^0.0.3-alpha.0",
-    "@waykit/fonts": "^0.0.6-alpha.0",
     "@waykit/sprites": "^0.0.3-alpha.0",
     "@waykit/styles": "^0.0.6-alpha.0",
     "@waykit/tsconfig": "^0.0.3-alpha.0",
-    "start-server-and-test": "^1.14.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@cypress/vite-dev-server": "^1.2.5",
     "@cypress/vue": "^3.1.0",
-    "@rollup/plugin-typescript": "^8.3.0",
     "@vitejs/plugin-vue": "^2.0.1",
     "@vue/cli-plugin-unit-jest": "^4.5.15",
     "@vue/compiler-sfc": "^3.2.26",
     "@vue/test-utils": "^2.0.0-rc.18",
     "cssnano": "^5.0.15",
-    "cypress": "^9.4.1",
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
     "prettier": "^2.5.1",

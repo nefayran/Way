@@ -1,6 +1,5 @@
 // vite.config.ts
 import vue from "@vitejs/plugin-vue";
-import typescript from "@rollup/plugin-typescript";
 
 const path = require("path");
 const { defineConfig } = require("vite");
@@ -27,33 +26,18 @@ module.exports = defineConfig({
     rollupOptions: {
       external: ["vue"],
       output: {
-        sourceMap: true,
-        format: "iife",
-        name: "way.components",
-        inlineDynamicImports: true,
-        // Provide global variables to use in the UMD build
-        // for externalized deps
         globals: {
           vue: "Vue",
         },
+        dir: path.resolve(__dirname, "./dist/components"),
+        format: "iife",
+        name: "way.components",
+        inlineDynamicImports: true,
         assetFileNames: (assetInfo) => {
           if (assetInfo.name === "style.css") return "styles.css";
           return assetInfo.name;
         },
       },
-      plugins: [
-        typescript({
-          target: "esnext",
-          rootDir: path.resolve(__dirname, "./src/components"),
-          declaration: true,
-          declarationDir: path.resolve(__dirname, "./dist/types"),
-          exclude: [
-            path.resolve(__dirname, "../node_modules/**"),
-            "**/__tests__/**",
-          ],
-          allowSyntheticDefaultImports: true,
-        }),
-      ],
     },
   },
 });

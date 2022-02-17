@@ -12,14 +12,14 @@ Milky Way Toolkit - This is a set of packages for developing front-end applicati
 
 - [API](packages/api/README.md) - API client;
 - [Core](packages/core/README.md) - Core classes and interfaces for clean architecture realisation;
-- [Fonts](packages/fonts/README.md) - Fonts library;
 - [Space](packages/space/README.md) - Tool for developt Vue components;
 - [Sprites](packages/sprites/README.md) - Sprites/Icons library;
-- [Storybook](packages/storybook/README.md) - For present stories;
 - [Styles](packages/styles/README.md) - Styles library;
 - [Services](packages/services/README.md) - Error, Notification, Auth and Utils services (soon...);
-- [Examples](packages/examples/README.md) - Examples for how to use packages;
-* Config packages
+* Examples (demo) packages:
+  * [API example](packages/examples/api/README.md) - API Client demo;
+  * [Storybook demo](packages/examplesexamplesstorybook/README.md) - For present stories;
+* Config packages:
   * [TypeScript config](packages/config/tsconfig/README.md)
   * [Eslint config](packages/config/eslint-config/README.md)
 

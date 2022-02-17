@@ -11,8 +11,7 @@
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
     "build": "yarn bootstrap && yarn test && yarn clean && yarn lint && lerna run build",
-    "build:space": "yarn build && lerna run build:space",
-    "pub": "lerna publish",
+    "publish": "lerna publish",
     "dev": "lerna run dev --stream",
     "storybook": "lerna run storybook"
   },

@@ -3,7 +3,6 @@ import App from "./App.vue";
 
 import router from "./app/router";
 import "@waykit/styles";
-import "@waykit/fonts";
 
 const app = createApp(App);
 
