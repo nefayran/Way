@@ -1,6 +1,5 @@
 {
   "name": "waykit",
-  "private": true,
   "workspaces": [
     "packages/**"
   ],
@@ -11,7 +10,7 @@
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
     "build": "yarn bootstrap && yarn test && yarn clean && yarn lint && lerna run build",
-    "publish": "lerna publish",
+    "pub": "lerna publish",
     "dev": "lerna run dev --stream",
     "storybook": "lerna run storybook"
   },
