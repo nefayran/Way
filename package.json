@@ -11,6 +11,7 @@
     "test": "lerna run test --stream",
     "bootstrap": "lerna bootstrap",
     "build": "yarn bootstrap && yarn test && yarn clean && yarn lint && lerna run build",
+    "version": "lerna version --conventional-commits",
     "publish": "lerna publish",
     "dev": "lerna run dev --stream",
     "storybook": "lerna run storybook"
