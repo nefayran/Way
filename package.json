@@ -1,9 +1,11 @@
 {
   "name": "waykit",
+  "private": true,
   "workspaces": [
     "packages/**"
   ],
   "scripts": {
+    "dev": "lerna exec --scope @waykit/space yarn dev --stream ",
     "start": "yarn build && lerna run start --stream",
     "clean": "lerna run clean",
     "lint": "lerna run lint --stream",
@@ -11,7 +13,6 @@
     "bootstrap": "lerna bootstrap",
     "build": "yarn bootstrap && yarn test && yarn clean && yarn lint && lerna run build",
     "pub": "lerna publish",
-    "dev": "lerna run dev --stream",
     "storybook": "lerna run storybook"
   },
   "devDependencies": {
@@ -23,6 +24,7 @@
     "lerna": "~3.14.0",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "ts-jest": "^26.5.6"
+    "ts-jest": "^26.5.6",
+    "concurrently": "^7.0.0"
   }
 }

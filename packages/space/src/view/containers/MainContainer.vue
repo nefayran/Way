@@ -6,7 +6,9 @@
       </suspense>
     </w-col>
     <w-col col="8">
-      <components-container />
+      <suspense>
+        <components-container />
+      </suspense>
     </w-col>
     <w-col col="2">
       <primary-sidebar-container />

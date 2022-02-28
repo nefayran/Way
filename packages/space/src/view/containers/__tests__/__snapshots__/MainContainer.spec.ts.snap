@@ -146,6 +146,13 @@ exports[`MainContainer.vue should have an wb-container class 1`] = `
               WCol
             </span>
           </li>
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WInput
+            </span>
+          </li>
           
         </ul>
       </div>

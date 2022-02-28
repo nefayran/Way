@@ -4,8 +4,9 @@
       <div class="wb-component">
         <component
           :is="wbComponent.component"
-          v-bind="properties"
           v-if="wbComponent && wbComponent.component"
+          v-model="value"
+          v-bind="properties"
         />
         <h3 v-else class="font-secondary">EMPTY</h3>
       </div>
@@ -13,16 +14,34 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { computed, ref, watchEffect } from "vue";
+<script async setup lang="ts">
+import { computed, ref, watchEffect, reactive } from "vue";
 import store from "@/app/store";
 
 const wbComponent = computed(
   () => store.getters["ComponentsStore/getComponent"]
 );
 
-const properties = ref({
-  color: "black",
+const value = ref("@way");
+
+// const properties = ref({
+//   color: "primary--base",
+// });
+
+const properties = ref({});
+
+watchEffect(async () => {
+  if (wbComponent.value && wbComponent.value.props) {
+    const props = await wbComponent.value.props;
+    const propertiesObject = {};
+    Object.keys(props).forEach((key) => {
+      // Object.defineProperty(propertiesObject, key, {
+      //   value: props[key],
+      // });
+      propertiesObject[key] = props[key].default;
+    });
+    properties.value = propertiesObject;
+  }
 });
 </script>
 
