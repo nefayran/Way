@@ -1,4 +1,6 @@
-﻿export default class Result {
+﻿import IResult from "./interfaces/IResult";
+
+export default class Result implements IResult {
   public Errors: string[];
 
   public Success: boolean;

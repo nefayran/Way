@@ -4,9 +4,10 @@ import IRequest from "./interfaces/IRequest";
 import IError from "./interfaces/IError";
 import { HttpMethod } from "./HttpMethod";
 import IAuth from "./interfaces/IAuth";
+import IApiClient from "./interfaces/IApiClient";
 
 // APIClient is client class for xhr request
-export default class ApiClient {
+export default class ApiClient implements IApiClient {
   // Client for realisation (etc axios)
   client?: INetworkClient;
 

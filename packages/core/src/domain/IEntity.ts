@@ -1,3 +1,5 @@
-﻿export default interface IEntity {
-  Id: string;
+﻿import IGuid from "./GUID/IGuid";
+
+export default interface IEntity {
+  id: IGuid;
 }

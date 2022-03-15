@@ -33,12 +33,15 @@ const properties = ref({});
 watchEffect(async () => {
   if (wbComponent.value && wbComponent.value.props) {
     const props = await wbComponent.value.props;
-    const propertiesObject = {};
-    Object.keys(props).forEach((key) => {
+    const propertiesObject = <Object>{};
+    Object.keys(props).forEach((key: string) => {
       // Object.defineProperty(propertiesObject, key, {
       //   value: props[key],
       // });
-      propertiesObject[key] = props[key].default;
+      Object.defineProperty(propertiesObject, key, {
+        value: props[key].default,
+      });
+      // propertiesObject[key] = props[key].default;
     });
     properties.value = propertiesObject;
   }

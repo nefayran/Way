@@ -5,7 +5,7 @@ describe("WInput.vue", () => {
   test("should have an w-input class", () => {
     const wrapper = mount(WInput, {
       propsData: {
-        value: "test",
+        modelValue: "test",
       },
     });
     expect(wrapper.classes()).toContain("w-input");

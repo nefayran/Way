@@ -3,11 +3,12 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "./dist/types",
-    "types": ["vite", "jest", "@waykit/sprites"],
+    "types": ["vite", "jest", "@waykit/core"],
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     },
   },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["node_modules", "**/__tests__/**"]
 }

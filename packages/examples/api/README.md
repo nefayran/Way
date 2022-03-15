@@ -1,15 +1,5 @@
 # @waykit/examples
 
-## Installation
-
-### npm
-```sh
-npm install @waykit/examples
-```
-### yarn
-```sh
-yarn add @waykit/examples
-```
 ## Packages examples
 
 ###API Client example

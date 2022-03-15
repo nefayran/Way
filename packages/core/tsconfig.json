@@ -1,0 +1,12 @@
+{
+  "extends": "@waykit/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "module": "ESNext",
+    "outDir": "./dist",
+    "types": ["axios", "jest", "vuex"],
+    "baseUrl": "."
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}

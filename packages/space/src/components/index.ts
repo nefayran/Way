@@ -1,4 +1,4 @@
-﻿const Components: { [key: string]: any } = {
+﻿export const Components: { [key: string]: any } = {
   WApp: () => import("@/components/WApp/WApp.vue"),
   WButton: () => import("@/components/WButton/WButton.vue"),
   WGrid: () => import("@/components/WLayout/WGrid/WGrid"),
@@ -11,5 +11,3 @@
 export { default as WApp } from "./WApp/WApp.vue";
 export { default as WButton } from "./WButton/WButton.vue";
 export { default as WTable } from "./WButton/WButton.vue";
-
-export default Components;

@@ -1,5 +1,5 @@
 ﻿import { defineAsyncComponent, markRaw } from "vue";
-import Components from "@/components/index";
+import { Components } from "@/components/index";
 
 export interface IWBComponent {
   name: string;

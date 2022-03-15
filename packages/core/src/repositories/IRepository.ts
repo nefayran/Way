@@ -1,18 +1,16 @@
-﻿import IGuid from "../domain/GUID/IGuid";
+﻿import IEntity from "../domain/IEntity";
+import IGuid from "../domain/GUID/IGuid";
+import ISource from "./ISource";
 
-export default interface IRepository<T> {
-  /* Add methods */
-  Add: () => T;
-  AddAsync: (entity: T) => Promise<T>;
-  /* Get methods */
-  Get: (guid: IGuid) => T;
-  GetAsync: (guid: IGuid) => Promise<T>;
-  GetAll: () => Array<T>;
-  GetAllAsync: () => Promise<Array<T>>;
-  /* Update methods */
-  Update: (guid: IGuid) => Promise<T>;
-  UpdateAsync: (guid: IGuid) => Promise<T>;
-  /* Delete methods */
-  Delete: (guid: IGuid) => Promise<T>;
-  DeleteAsync: (guid: IGuid) => Promise<T>;
+export default interface IRepository<T extends IEntity> {
+  /* Data source for realisation (vuex store, api for etc.) */
+  source?: ISource;
+  /* Async Add method */
+  Add?: (entity: T) => Promise<T>;
+  /* Get by guid method */
+  GetById?: (id: IGuid) => T;
+  /* GetAll method */
+  GetAll?: () => Array<T>;
+  /* Async Delete by guid methods - return entity */
+  DeleteById?: (id: IGuid) => Promise<IGuid>;
 }

@@ -13,7 +13,7 @@
   "license": "MIT",
   "scripts": {
     "examples:server": "nodemon ./server.ts",
-    "examples:api": "tsc ./api/axios/index.ts && node ./api/axios/index.js"
+    "examples:api": "tsc ./src/axios/index.ts && node ./api/axios/index.js"
   },
   "dependencies": {
     "@waykit/api": "^0.0.3-alpha.0",

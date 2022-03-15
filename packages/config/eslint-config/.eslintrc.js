@@ -6,13 +6,7 @@
     jest: true,
     "vue/setup-compiler-macros": true,
   },
-  extends: [
-    "plugin:vue/vue3-recommended",
-    "airbnb-base",
-    "plugin:prettier/recommended",
-    "prettier",
-    "plugin:import/typescript",
-  ],
+  extends: ["plugin:vue/vue3-recommended", "airbnb-base", "plugin:prettier/recommended", "prettier", "plugin:import/typescript"],
   parserOptions: {
     ecmaVersion: 12,
     parser: "@typescript-eslint/parser",
@@ -25,6 +19,7 @@
     "import/no-unresolved": "off",
     "import/extensions": "off",
     "no-unused-vars": "off",
+    "no-underscore-dangle": "off",
     "class-methods-use-this": "off",
     "no-useless-constructor": "off",
     "no-empty-function": "off",
