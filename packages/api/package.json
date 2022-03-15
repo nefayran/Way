@@ -1,6 +1,6 @@
 {
   "name": "@waykit/api",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.3-alpha.1",
   "description": "Milky way api client for frontend applications",
   "keywords": [
     "api",
@@ -21,7 +21,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@waykit/eslint-config": "^0.0.3-alpha.0",
+    "@waykit/eslint-config": "^0.0.3-alpha.1",
     "@waykit/tsconfig": "^0.0.3-alpha.0"
   },
   "devDependencies": {
