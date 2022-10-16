@@ -1,6 +1,7 @@
 {
   "name": "@waykit/vuex-repository-example",
   "version": "0.0.2",
+  "private": true,
   "description": "Milky way example using core repository",
   "keywords": [
     "vue",
